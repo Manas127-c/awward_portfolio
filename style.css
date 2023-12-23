@@ -810,7 +810,7 @@ form #email {
         width: 98%;
         opacity: 0;
         height: 0%;
-        /* background-color: red; */
+        background-color: black;
         z-index: 11;
         transition: 0.3s ease;
     }
@@ -818,6 +818,15 @@ form #email {
         width: 100%;
         height: 20%;
         border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 30px;
+    }
+    .boxmenu a {
+        text-decoration: none;
+        font-size: 4vw;
+        color: white;
     }
     #box1menu {
         border-top-left-radius: 30px;
@@ -858,28 +867,31 @@ form #email {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 1vh;
+        justify-content: start;
+        gap: 0px;
+        margin-top: 0px;
     }
     #box1 {
         width: 100%;
-        height: 8%;
+        height: 20%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         /* background-color: red; */
-        padding-left: 4vw;
-        gap: 10px;
+        justify-content: start;
+        gap: 0px;
+        padding: 0px 0px;
     }
     #box1 h1 {
-        margin-bottom: 10px;
-        font-size: 12.3vw;
+        margin: 0px 0px;
+        font-size: 16vw;
         color: white;
         font-weight: 600;
         justify-self: center;
     }
     #box1 .video {
-        width: 21vw;
-        height: 10vw;
+        width: 39vw;
+        height: 15vw;
         border-radius: 100px;
         background-color: black;
         position: relative;
@@ -888,62 +900,65 @@ form #email {
         position: absolute;
         top: 0;
         left: 0;
-        width: 21vw;
-        height: 10vw;
+        width: 39vw;
+        height: 15vw;
         border-radius: 100px;
         object-fit: cover;
     }
     #box2 {
         width: 100%;
-        height: 8%;
+        height: 20%;
         /* background-color: yellow; */
         display: flex;
+        flex-direction: column-reverse;
         align-items: center;
-        gap: 10px;
-        padding-left: 25vw;
+        justify-content: start;
+        padding: 0px 0px;
+        gap: 0px;
     }
     #box2 h1 {
-        margin-bottom: 10px;
-        font-size: 12.3vw;
+        margin: 0px 0px;
+        font-size: 16vw;
         color: white;
         font-weight: 600;
         justify-self: center;
     }
     #box2 .video {
-        width: 21vw;
-        height: 10vw;
+        width: 39vw;
+        height: 15vw;
         border-radius: 100px;
-        background-color: black;
+        /* background-color: black; */
         position: relative;
     }
     #box2 .video video {
         position: absolute;
         top: 0;
         left: 0;
-        width: 21vw;
-        height: 10vw;
+        width: 39vw;
+        height: 15vw;
         border-radius: 100px;
         object-fit: cover;
     }
     #box3 {
         width: 100%;
-        height: 8%;
+        height: 30%;
         /* background-color: green; */
         display: flex;
         align-items: center;
-        gap: 5px;
-        padding-left: 15vw;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 0px;
+        gap: 0px;
     }
     #box3 h1 {
-        margin-bottom: 10px;
-        font-size: 12.3vw;
+        margin: 0px 0px;
+        font-size: 16vw;
         color: white;
         font-weight: 600;
-        justify-self: center;
     }
     #box3 .video {
-        width: 21vw;
-        height: 10vw;
+        width: 39vw;
+        height: 15vw;
         border-radius: 100px;
         background-color: black;
         position: relative;
@@ -952,8 +967,8 @@ form #email {
         position: absolute;
         top: 0;
         left: 0;
-        width: 21vw;
-        height: 10vw;
+        width: 39vw;
+        height: 15vw;
         border-radius: 100px;
         object-fit: cover;
     }
@@ -964,10 +979,10 @@ form #email {
         align-items: center;
         justify-content: space-between;
         /* background-color: green; */
-        padding: 0px 80px;
+        padding: 0px 40px;
     }
     #box4 h1 {
-        font-size: 2.5vw;
+        font-size: 5vw;
         color: white;
         font-weight: 100;
     }
@@ -978,7 +993,7 @@ form #email {
     /* ========================================================================= */
     /* =========================frame 2 responsive=========================== */
     #box-frame2 {
-        height: 150%;
+        height: 90%;
     }
     #p1f1 h1 {
         font-size: 2.5vw;
@@ -993,10 +1008,10 @@ form #email {
     }
     #p1f3 h1 {
         font-size: 12vw;
-        color: rgba(0, 0, 0, 0.459);
+        color: black;
         text-transform: uppercase;
         font-weight: 500;
-        line-height: 80px;
+        line-height: 60px;
     }
     .block {
         width: 12vw;
@@ -1012,31 +1027,283 @@ form #email {
         flex-direction: column;
         align-items: center;
         justify-content: start;
+        margin: 0px 0px;
     }
-    #headingf3 {
+    #heading-f3 {
         width: 100%;
-        height: 10%;
+        height: 20%;
         /* background-color: red; */
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    #headingf3 h1 {
+    #heading-f3 h1 {
         color: white;
         font-size: 2.5vw;
         font-weight: 500;
     }
-    #contentf3 {
+    #content-f3 {
         width: 80%;
-        height: 80%;
+        height: 40%;
+    }
+    .con {
+        width: 100%;
+        height: 50%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        color: white;
+    }
+    .con h1 {
+        font-size: 4vw;
+        color: white;
+        position: relative;
+    }
+    .con h2 {
+        font-size: 2vw;
+    }
+    .con h3 {
+        font-size: 4vw;
+    }
+    .con h1::before {
+        position: absolute;
+        content: "";
+        width: 1vw;
+        height: 1vw;
+        top: 40%;
+        left: -40%;
+        background-color: #90ee90;
+        border-radius: 50%;
+    }
+    #scroller-f3 {
+        width: 100%;
+        height: 40%;
+        justify-content: start;
+    }
+    #scroller {
+        /* background-color: red; */
+        display: flex;
+    }
+    .scroller-in {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .box-f3 {
+        width: 15vw;
+        height: 15vw;
+    }
+    .box-f3 i {
+        font-size: 14vw;
+    }
+    /* =========================================================================== */
+    /* =============================frame4 responsive============================= */
+    #frame4 {
+        min-width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    #headingf4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    #headingf4 h1 {
+        font-size: 2.5vw;
+        color: white;
+        font-weight: 500;
+    }
+    .f4 {
+        padding: 0px 10px;
+    }
+    .f4 h1 {
+        z-index: 8;
+        mix-blend-mode: difference;
+        font-size: 6vw;
+        font-weight: 400;
+    }
+    .f4 a {
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+        z-index: 8;
+        mix-blend-mode: difference;
+    }
+    /* =========================================================================== */
+    /* =============================frame5 responsive============================= */
+    #heading-f5 {
+        width: 100%;
+        height: 10%;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+    }
+    #heading-f5 h1 {
+        font-size: 3.5vw;
+        color: white;
+        font-weight: 500;
+    }
+    #content-f5 {
+        width: 100%;
+        height: 75%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+    }
+    .left-cf5 {
+        width: 100%;
+        height: 50%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-l5 {
+        width: 60%;
+        height: 25%;
+        /* background-color: tomato;
+        border: 1px solid white; */
         overflow: hidden;
+    }
+    .box-l5 h1 {
+        font-size: 11vw;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    #l5-1 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    #l5-2 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    #l5-3 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    #l5-4 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #l5-4 a {
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+        height: 10vw;
+        width: 10vw;
+    }
+    .right-cf5 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding: 0px 50px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+     ::placeholder {
+        color: white;
+    }
+    form #name {
+        width: 75vw;
+        height: 4vh;
+        font-size: 6vw;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        color: white;
+    }
+    form #email {
+        width: 75vw;
+        height: 4vh;
+        font-size: 6vw;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        color: white;
+    }
+    textarea {
+        width: 75vw;
+        height: 4vh;
+        font-size: 6vw;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        color: white;
+        resize: none;
+    }
+    form #button {
+        width: 75vw;
+        height: 4vh;
+        font-size: 3vw;
         border-radius: 50px;
         border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        transition: 0.3s ease;
+        font-weight: 700;
     }
-    #contentf3 img {
+    .focus {
+        outline: none;
+        border-bottom: 2px solid white;
+    }
+    form .in {
+        outline: none;
+        transition: 0.1s linear;
+    }
+    form #button:hover {
+        color: black;
+        background-color: white;
+    }
+    #footer-f5 {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
+        height: 20%;
+        /* background-color: green; */
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #footer-f5 .A {
+        width: 10vw;
+        height: 1.5vw;
+        overflow: hidden;
+        /* background-color: blue; */
+        position: relative;
+    }
+    #footer-f5 a {
+        text-decoration: none;
+        font-size: 5vw;
+        color: white;
+        font-weight: 400;
+    }
+    #footer-f5 h1 {
+        text-decoration: none;
+        font-size: 3vw;
+        color: white;
+        font-weight: 400;
     }
 }
