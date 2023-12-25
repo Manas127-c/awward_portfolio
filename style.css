@@ -24,6 +24,25 @@ body {
     flex-direction: column;
 }
 
+#season {
+    position: absolute;
+    z-index: 9999;
+    pointer-events: none;
+    width: 15vw;
+    height: 18vh;
+    /* background-color: red; */
+    left: 80%;
+    top: 3%;
+    transform: translateX(-50%);
+}
+
+#season img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
 #frame1 {
     min-width: 100vw;
     height: 100vh;
@@ -819,6 +838,17 @@ form #email {
 /*=================================== MEDIA QUERIES FOR MOBILE DEVICES=============================*/
 
 @media (max-width:600px) {
+    #season {
+        position: absolute;
+        z-index: 9999;
+        pointer-events: none;
+        width: 15vw;
+        height: 7vh;
+        /* background-color: red; */
+        left: 50%;
+        top: 0%;
+        transform: translateX(-50%);
+    }
     #frame1 {
         width: 100vw;
         min-height: 100vh;
