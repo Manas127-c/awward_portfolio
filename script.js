@@ -108,18 +108,18 @@ if (w > 650) {
 
     function frame2() {
         let b = document.querySelector("#box-frame2")
-        gsap.to(b, {
-            y: "-80vh",
-            scrollTrigger: {
-                trigger: "#frame2",
-                scroller: "#main",
-                // markers: true,
-                start: "top 0%",
-                end: "top -30%",
-                scrub: 2,
-                pin: true,
-            }
-        })
+            // gsap.to(b, {
+            //     y: "-80vh",
+            //     scrollTrigger: {
+            //         trigger: "#frame2",
+            //         scroller: "#main",
+            //         // markers: true,
+            //         start: "top 0%",
+            //         end: "top -30%",
+            //         scrub: 2,
+            //         pin: true,
+            //     }
+            // })
         let blocks = document.querySelectorAll(".block");
         blocks.forEach(function(block) {
             let timeout;
@@ -182,7 +182,7 @@ if (w > 650) {
                 trigger: "#box-frame2",
                 scroller: "#main",
                 // markers: true,
-                start: "top 30%",
+                start: "top 20%",
                 end: "top -30%",
                 scrub: 2,
             }
